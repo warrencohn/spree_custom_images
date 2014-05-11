@@ -16,8 +16,8 @@ module SpreeCustomImages
 
       def copy_images
         install_path = File.expand_path(File.dirname(__FILE__))
-        src_path = File.expand_path("images", File.dirname(File.dirname(File.dirname(File.dirname(install_path)))))
-        dst_path = File.expand_path("images", Dir.pwd)
+        src_path = File.expand_path("public/images", File.dirname(File.dirname(File.dirname(File.dirname(install_path)))))
+        dst_path = File.expand_path("public/images", Dir.pwd)
         FileUtils.copy_entry(src_path, dst_path)
       end
 
