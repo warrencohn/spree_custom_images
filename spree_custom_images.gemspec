@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_custom_images'
   s.version     = '2.2.1'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Adds images to Spree'
+  s.description = 'Same as above'
   s.required_ruby_version = '>= 1.9.3'
 
  s.author    = 'Someone Else'
