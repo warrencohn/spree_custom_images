@@ -1,4 +1,4 @@
-require 'api_constraints'
+#require 'api_constraints'
 
 Spree::Core::Engine.routes.draw do
   # Add your extension routes here
